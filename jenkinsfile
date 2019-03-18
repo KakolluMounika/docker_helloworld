@@ -32,9 +32,7 @@ pipeline {
                               steps{
                                 echo "Hii, This is Mounika"
                               }
-                              steps {
-                                echo "Running the integration test..."
-                              }
+                              
                            }
                            }
                            }
