@@ -29,7 +29,9 @@ pipeline {
                            }
                            }
                             stage('Integration test') {
-                              
+                              steps{
+                                echo "Hii, This is Mounika"
+                              }
                               steps {
                                 echo "Running the integration test..."
                               }
